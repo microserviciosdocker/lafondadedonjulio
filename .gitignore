@@ -1,0 +1,149 @@
+# ============================================
+# LA FONDA DE DON JULIO - Git Ignore Global
+# ============================================
+
+# ------------------
+# OS Generated Files
+# ------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ------------------
+# IDE / Editors
+# ------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ------------------
+# Backend (Laravel)
+# ------------------
+backend/.env
+backend/.env.backup
+backend/.env.production
+backend/public/hot
+backend/public/storage
+backend/storage/*.key
+backend/vendor/
+backend/node_modules/
+backend/npm-debug.log
+backend/yarn-error.log
+backend/.phpunit.result.cache
+backend/coverage/
+
+# Laravel Sail
+backend/.sail/
+
+# ------------------
+# Flutter Apps
+# ------------------
+app-cliente/.dart_tool/
+app-cliente/.flutter-plugins
+app-cliente/.flutter-plugins-dependencies
+app-cliente/.packages
+app-cliente/.pub-cache/
+app-cliente/.pub/
+app-cliente/build/
+app-cliente/.flutter_build_cache/
+app-cliente/.flutter-plugins-dependencies
+
+app-repartidor/.dart_tool/
+app-repartidor/.flutter-plugins
+app-repartidor/.flutter-plugins-dependencies
+app-repartidor/.packages
+app-repartidor/.pub-cache/
+app-repartidor/.pub/
+app-repartidor/build/
+app-repartidor/.flutter_build_cache/
+app-repartidor/.flutter-plugins-dependencies
+
+# Flutter secrets
+app-cliente/lib/env/env.g.dart
+app-repartidor/lib/env/env.g.dart
+
+# iOS
+app-cliente/ios/Pods/
+app-cliente/ios/.symlinks/
+app-cliente/ios/Flutter/Flutter.framework
+app-cliente/ios/Flutter/Flutter.podspec
+app-cliente/ios/Flutter/Generated.xcconfig
+app-cliente/ios/Flutter/app.flx
+app-cliente/ios/Flutter/app.zip
+app-cliente/ios/Flutter/engine
+app-cliente/ios/Flutter/flutter_assets/
+app-cliente/ios/Flutter/flutter_export_environment.sh
+app-cliente/ios/ServiceDefinitions.json
+app-cliente/ios/Runner/GeneratedPluginRegistrant.*
+
+app-repartidor/ios/Pods/
+app-repartidor/ios/.symlinks/
+app-repartidor/ios/Flutter/Flutter.framework
+app-repartidor/ios/Flutter/Flutter.podspec
+app-repartidor/ios/Flutter/Generated.xcconfig
+app-repartidor/ios/Flutter/app.flx
+app-repartidor/ios/Flutter/app.zip
+app-repartidor/ios/Flutter/engine
+app-repartidor/ios/Flutter/flutter_assets/
+app-repartidor/ios/Flutter/flutter_export_environment.sh
+app-repartidor/ios/ServiceDefinitions.json
+app-repartidor/ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+app-cliente/android/.gradle/
+app-cliente/android/captures/
+app-cliente/android/gradlew
+app-cliente/android/gradlew.bat
+app-cliente/android/local.properties
+app-cliente/android/**/GeneratedPluginRegistrant.java
+app-cliente/android/key.properties
+app-cliente/android/app/google-services.json
+
+app-repartidor/android/.gradle/
+app-repartidor/android/captures/
+app-repartidor/android/gradlew
+app-repartidor/android/gradlew.bat
+app-repartidor/android/local.properties
+app-repartidor/android/**/GeneratedPluginRegistrant.java
+app-repartidor/android/key.properties
+app-repartidor/android/app/google-services.json
+
+# ------------------
+# Docker
+# ------------------
+docker/*.log
+docker/data/
+
+# ------------------
+# Logs & Temp
+# ------------------
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+
+# ------------------
+# Security
+# ------------------
+*.pem
+*.key
+*.crt
+credentials.json
+firebase-credentials.json
+secrets/
+
+# ------------------
+# Misc
+# ------------------
+.env.local
+.env.*.local
